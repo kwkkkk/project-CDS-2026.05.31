@@ -2,4 +2,4 @@
 
 ./collector.sh
 ./converter.sh
-./upload.sh
+./mysql_upload.sh
