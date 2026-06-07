@@ -6,7 +6,7 @@ O **CDS (Coletor de Dados em Shell)** é um projeto desenvolvido por **Kwkkkk** 
 
 O Linux é o kernel que serve como base para a maioria dos sistemas corporativos e servidores de grandes empresas ao redor do mundo, tornando-se o ambiente ideal e mais relevante para o monitoramento e coleta de dados métricos.
 
-##DB & Arquitetura
+## DB & Arquitetura
 
 Atualmente, o projeto está na versão **BETA (0.2.1)** e conta com a seguinte estrutura de infraestrutura:
 
