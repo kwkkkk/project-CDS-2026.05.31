@@ -1,13 +1,25 @@
 # THE PROJECT CDS-2026
 
-O CDS(Coletor de Dados em Shell) é um projeto desenvolvido por Kwkkkk na qual possui a finalidade de coletar informações
-de uma determinada máquina e armazenar em um DB, para isso ele utiliza as variáveis do sistema linux para coletar os dados
+O **CDS (Coletor de Dados em Shell)** é um projeto desenvolvido por **Kwkkkk** com a finalidade de coletar informações de desempenho e sistema de uma determinada máquina Linux e armazená-las em um banco de dados. Para realizar essa coleta, o script utiliza nativamente as variáveis e comandos do próprio sistema operacional.
 
-#POR QUÊ LINUX?
+## Por Que Linux?
 
-O Linux é o kernel na qual foi utilizado como base em diversos sistemas corporativos para grandes empresas.
+O Linux é o kernel que serve como base para a maioria dos sistemas corporativos e servidores de grandes empresas ao redor do mundo, tornando-se o ambiente ideal e mais relevante para o monitoramento e coleta de dados métricos.
 
-#POR QUÊ USAR ESTE PROJETO? E QUAL DB USAR?
+##DB & Arquitetura
 
-este projeto está na versão BETA(0.2.1) na qual ele gera um conteiner docker e nele criando um servidor DB MySQL para
-armazenar os dados coletados. Utiliza-se MySQL por enquanto já que ele é estável e rápido em termos de Querys precisas.
+Atualmente, o projeto está na versão **BETA (0.2.1)** e conta com a seguinte estrutura de infraestrutura:
+
+* **Conteinerização:** O projeto gera automaticamente um contêiner **Docker**.
+* **Banco de Dados:** Dentro do contêiner, é criado um servidor **MySQL** para armazenar todos os dados coletados.
+
+### Por que o MySQL?
+O MySQL foi o banco de dados escolhido para esta fase do projeto por ser extremamente estável, completamente documentado e rápido no processamento de queries precisas.
+
+---
+
+## Tecnologias Utilizadas
+
+* **Shell Script:** Para a lógica de coleta de dados no sistema.
+* **Docker:** Para encapsulamento e consistência do ambiente de banco de dados.
+* **MySQL:** Para armazenamento dos dados coletados.
